@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
@@ -31,7 +30,7 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    search(city);
+    search();
   }
 
   function handleCityChange(event) {

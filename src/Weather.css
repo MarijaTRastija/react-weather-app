@@ -26,9 +26,7 @@
 }
 
 .Weather canvas {
-  margin-right: 5px;
-  margin-top: 5px;
-  display: inline-block;
+  margin: 10px auto;
 }
 
 .Weather .temperature {
@@ -37,6 +35,7 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  margin-left: 10px;
   position: relative;
 }
 
