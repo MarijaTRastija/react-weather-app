@@ -16,6 +16,14 @@ export default function App() {
           {" "}
           open-sourced on GitHub
         </a>
+        , and hosted on{" "}
+        <a
+          href="https://aesthetic-dasik-50bee8.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Netlify
+        </a>
       </footer>
     </div>
   );
